@@ -6,6 +6,13 @@ This is a dummy container that sleeps over an environment set duration (default:
 
 I personally needed something like to mess around with long-living containers.
 
+### Change duration
+
+Change the environment variables to alter the duration in which the sleeper sleeps.
+`SLEEP_START=100`
+`SLEEP_STOP=120`
+This example will decided to sleep for a randomised duration between 100 seconds and 120 seconds.
+
 ### To pull the image
 
 `docker pull rsoury/sleeper`
