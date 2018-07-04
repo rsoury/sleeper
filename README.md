@@ -14,3 +14,11 @@ I personally needed something like to mess around with long-living containers.
 
 1.  `git clone git@github.com:rsoury/sleeper.git`
 2.  `docker build . -t rsoury/sleeper -f Dockerfile.build`
+
+### To run the sleeper inside Docker
+
+`docker run --rm rsoury/sleeper`
+
+### To run the sleeper outside a container
+
+`python -u ./sleeper.py`
